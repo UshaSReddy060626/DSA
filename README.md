@@ -10,7 +10,7 @@ This repository covers the fundamentals of algorithmic problem solving, commonly
 
 ## 1. Time & Space Complexity
 
-### What You'll Learn
+### What I'll Learn
 
 * Big O Notation
 * Ω (Omega) Notation
