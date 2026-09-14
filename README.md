@@ -1,530 +1,291 @@
-# 🧠 Data Structures & Algorithms
-
-A structured collection of **Data Structures & Algorithms concepts, techniques, implementations, and problem-solving patterns** using Python.
-
-This repository covers the fundamentals of algorithmic problem solving, commonly used data structures, searching and sorting techniques, recursion, dynamic programming, and graph-based algorithms.
+# 🧠 DSA — Data Structures & Algorithms
 
 ---
 
-# 📚 Topics Covered
+## 📌 About This Roadmap
 
-## 1. Time & Space Complexity
+This repository contains a structured and sequential **Data Structures & Algorithms (DSA) roadmap** designed to build strong problem-solving and interview skills from the fundamentals.
 
-### What I'll Learn
+Each topic follows a simple learning approach:
 
-* Big O Notation
-* Ω (Omega) Notation
-* Θ (Theta) Notation
-* Best Case
-* Average Case
-* Worst Case
-* Time Complexity of Loops
-* Time Complexity of Nested Loops
-* Space Complexity
-* Auxiliary Space
-* Amortized Analysis
-* Dynamic Array Complexity
-* HashMap Complexity
+**Concept → Implementation → Problem Solving → Revision**
 
----
+The roadmap focuses on understanding the underlying concepts before increasing problem-solving speed.
 
-## 2. Arrays
+**Primary Resource:** [Striver's A2Z DSA Course](https://takeuforward.org/)
+**Practice:** LeetCode — Easy → Medium → Hard
+**Additional Reference:** GeeksforGeeks
 
-### What You'll Learn
+### 🎯 Golden Rule
 
-### Searching
+> **Understanding > Speed**
 
-* Linear Search
-* Binary Search
-
-### Array Techniques
-
-* Prefix Sum
-* Suffix Sum
-* Kadane's Algorithm
-* Two Pointer Technique
-
-### Sorting
-
-* Bubble Sort
-* Selection Sort
-* Insertion Sort
-* Merge Sort
-* Quick Sort
-
-### Matrix Operations
-
-* 2D Arrays
-* Matrix Traversal
-* Matrix Transpose
-* Matrix Rotation
-* Spiral Matrix
+Build a strong understanding of each data structure and algorithm before focusing on solving problems quickly.
 
 ---
 
-## 3. Strings
+# 🗂️ Topic Checklist
 
-### What You'll Learn
+* [ ] **Arrays & Strings** — Two Pointer, Sliding Window, Prefix Sum, Frequency Maps
+* [ ] **Searching & Sorting** — Binary Search & Variants, Merge Sort, Quick Sort
+* [ ] **Recursion & Backtracking** — Subsets, Permutations, Combination Sum, N-Queens
+* [ ] **Linked List, Stack & Queue** — Reversal, Cycle Detection, Monotonic Stack
+* [ ] **Trees** — Traversals, BST Operations, LCA, Diameter, Balanced Trees
+* [ ] **Heaps** — Top-K Problems, Priority Queue Applications
+* [ ] **Graphs** — BFS, DFS, Union-Find, Topological Sort, Dijkstra, MST
+* [ ] **Dynamic Programming** — Knapsack, LIS, Matrix DP, LCS, Edit Distance
+* [ ] **Greedy** — Interval Scheduling, Activity Selection
+* [ ] **Bit Manipulation & Trie** — Bit Tricks, Trie-Based String Problems
 
-### String Fundamentals
-
-* String Reversal
-* Palindrome
-* Substrings
-* String Frequency
-* Anagrams
-* Frequency Maps
-
-### String Problems
-
-* String Compression
-* Run-Length Encoding
-* Longest Common Prefix
-* Longest Palindromic Substring
-
-### Pattern Searching
-
-* Naive Pattern Searching
-* KMP Algorithm
-* Rabin-Karp Algorithm
-* Brute-Force String Matching
-* Optimized String Matching
+> Tick a topic only after completing **concepts + implementation + practice + revision**.
 
 ---
 
-## 4. Hashing
+# 🧩 Learning Structure
 
-### What You'll Learn
+Each topic follows the same workflow:
 
-### Fundamentals
+### 1️⃣ Learn the Concept
 
-* HashMap
-* HashSet
-* Frequency Counting
-* Duplicate Detection
+Understand:
 
-### Common Problems
+* What the data structure/algorithm is
+* How it works internally
+* When to use it
+* Time complexity
+* Space complexity
+* Common patterns
+
+### 2️⃣ Implement
+
+Implement the concept from scratch using **Python**.
+
+### 3️⃣ Solve Problems
+
+Start with:
+
+**Easy → Medium**
+
+Focus on recognizing patterns rather than memorizing solutions.
+
+### 4️⃣ Revise
+
+Review:
+
+* Core concepts
+* Important patterns
+* Common mistakes
+* Time and space complexity
+* Previously solved problems
+
+---
+
+The goal is **consistent problem solving**, not simply maximizing the number of problems solved.
+
+---
+
+
+## Arrays & Strings
 
 * Two Sum
+* Maximum Subarray
+* Longest Substring Without Repeating Characters
 * Subarray Sum Equals K
-* Group Anagrams
-* Longest Consecutive Sequence
-* Word Frequency
-* Ransom Note
 
-### Hashing Concepts
+## Searching & Sorting
 
-* Hash Collisions
-* Chaining
-* Open Addressing
-* Custom Hash Functions
-* HashMap Complexity
+* Binary Search
+* Search in Rotated Sorted Array
+* Find First and Last Position
 
-### Applications
-
-* LRU Cache
-* Counting-Based Problems
-
----
-
-## 5. Recursion & Backtracking
-
-### What You'll Learn
-
-### Recursion
-
-* Base Case
-* Recursive Case
-* Recursion Tree
-* Factorial
-* Fibonacci
-
-### Backtracking
+## Recursion & Backtracking
 
 * Subsets
 * Permutations
-* Combinations
-* Power Set
+* Combination Sum
 * N-Queens
-* Sudoku Solver
-* Maze / Rat in a Maze
-* Palindrome Partitioning
 
----
+## Linked List, Stack & Queue
 
-## 6. Sliding Window
-
-### What You'll Learn
-
-### Fixed-Size Window
-
-* Maximum Sum Subarray of Size K
-* Minimum Sum Subarray of Size K
-* Fixed-Size Window Problems
-
-### Variable-Size Window
-
-* Longest Substring Without Repeating Characters
-* Variable-Size Window Problems
-* Substring Problems
-
-### String-Based Problems
-
-* Count Anagrams in a String
-* Frequency-Based Window Problems
-
----
-
-## 7. Sorting & Searching
-
-### What You'll Learn
-
-### Sorting Algorithms
-
-* Bubble Sort
-* Selection Sort
-* Insertion Sort
-* Merge Sort
-* Quick Sort
-* Counting Sort
-
-### Searching Algorithms
-
-* Linear Search
-* Binary Search
-* Iterative Binary Search
-* Recursive Binary Search
-
-### Advanced Binary Search
-
-* Binary Search on Answer
-* Koko Eating Bananas Pattern
-* Search Space Reduction
-
-### Analysis
-
-* Time Complexity of Sorting Algorithms
-* Space Complexity of Sorting Algorithms
-* Stable vs Unstable Sorting
-
----
-
-## 8. Dynamic Programming
-
-### What You'll Learn
-
-### Fundamentals
-
-* Dynamic Programming
-* Overlapping Subproblems
-* Optimal Substructure
-* Memoization
-* Tabulation
-
-### 1D Dynamic Programming
-
-* Fibonacci
-* Climbing Stairs
-* House Robber
-* Coin Change
-
-### 2D Dynamic Programming
-
-* Unique Paths
-* Matrix Path Problems
-* Grid-Based DP
-
-### Subsequence & Knapsack Problems
-
-* Subset Sum
-* 0/1 Knapsack
-* Longest Common Subsequence
-* Edit Distance
-
----
-
-## 9. Linked List
-
-### What You'll Learn
-
-### Types
-
-* Singly Linked List
-* Doubly Linked List
-* Circular Linked List
-
-### Operations
-
-* Traversal
-* Insertion
-* Deletion
-* Searching
-
-### Important Techniques
-
-* Fast & Slow Pointers
 * Reverse Linked List
-* Middle of Linked List
-* Detect Loop
-* Floyd's Cycle Detection
-
-### Common Problems
-
-* Merge Two Sorted Lists
-* Intersection of Linked Lists
-* Copy List with Random Pointer
-
----
-
-## 10. Stack
-
-### What You'll Learn
-
-### Fundamentals
-
-* Stack
-* Push
-* Pop
-* Peek
-
-### Common Problems
-
-* Balanced Parentheses
+* Detect Cycle in Linked List
+* Valid Parentheses
 * Next Greater Element
-* Stock Span Problem
-* Min Stack
 
-### Expression Problems
+## Trees
 
-* Infix Expression
-* Prefix Expression
-* Postfix Expression
-* Infix to Postfix
-* Infix to Prefix
-
----
-
-## 11. Queue
-
-### What You'll Learn
-
-### Fundamentals
-
-* Linear Queue
-* Circular Queue
-* Deque
-* Priority Queue
-
-### Implementation
-
-* Queue Using Stack
-* Stack Using Queue
-
-### Common Problems
-
-* Sliding Window Maximum
-
----
-
-## 12. Heap
-
-### What You'll Learn
-
-### Fundamentals
-
-* Min Heap
-* Max Heap
-* Heapify
-* Build Heap
-
-### Priority Queue
-
-* Min Priority Queue
-* Max Priority Queue
-* Priority Queue Implementation
-
-### Common Problems
-
-* Kth Largest Element
-* Kth Smallest Element
-* Top-K Frequent Elements
-* Merge K Sorted Lists
-
-### Sorting
-
-* Heap Sort
-
----
-
-## 13. Binary Tree & BST
-
-### What You'll Learn
-
-### Binary Tree Fundamentals
-
-* Binary Tree
-* Tree Traversal
-* Preorder Traversal
 * Inorder Traversal
+* Preorder Traversal
 * Postorder Traversal
 * Level Order Traversal
-
-### Tree Properties
-
-* Height
-* Depth
-* Diameter
-* Leaf Nodes
-* Balanced Tree
-
-### Binary Search Tree
-
-* BST Search
-* BST Insertion
-* BST Deletion
-
-### Common Problems
-
+* Validate Binary Search Tree
+* Diameter of Binary Tree
 * Lowest Common Ancestor
-* Construct Tree from Traversals
-* Tree Traversal Problems
 
----
+## Heaps
 
-## 14. Graphs
+* Kth Largest Element
+* Top-K Frequent Elements
 
-### What You'll Learn
+## Graphs
 
-### Representation
-
-* Adjacency List
-* Adjacency Matrix
-
-### Traversal
-
-* DFS
-* BFS
-
-### Graph Problems
-
-* Connected Components
-* Cycle Detection
-* Topological Sort
-
-### Shortest Path
-
+* Number of Islands
+* Course Schedule
 * Dijkstra's Algorithm
-* Bellman-Ford Algorithm
-
-### Minimum Spanning Tree
-
-* Prim's Algorithm
+* Union-Find
 * Kruskal's Algorithm
+* Prim's Algorithm
 
-### Supporting Concept
+## Dynamic Programming
 
-* Union-Find / Disjoint Set
+* 0/1 Knapsack
+* Coin Change
+* Longest Increasing Subsequence
+* Longest Common Subsequence
+* Edit Distance
+* Unique Paths
 
----
+## Greedy
 
-## 15. Trie
+* Merge Intervals
+* Non-overlapping Intervals
+* Activity Selection
 
-### What You'll Learn
+## Bit Manipulation & Trie
 
-### Fundamentals
-
-* Trie / Prefix Tree
-* Trie Node
-* Insert Word
-* Search Word
-* Prefix Search
-* Starts With
-
-### Applications
-
-* Auto-Complete
-* Word Search
-* Word Break
-* Prefix-Based Problems
-
-### Advanced
-
-* Count Distinct Substrings
+* Single Number
+* Number of 1 Bits
+* Implement Trie
 
 ---
 
-# 🧩 Problem-Solving Patterns
+### What to Record
 
-The repository also focuses on recognizing and applying common problem-solving patterns:
+For difficult problems, note:
 
-* Two Pointers
-* Sliding Window
-* Prefix Sum
-* Binary Search
-* Hashing
-* Fast & Slow Pointers
+* Pattern used
+* Approach
+* Mistake made
+* Time complexity
+* Space complexity
+* Key insight
+
+This helps build a personal **interview revision sheet** over time.
+
+---
+
+# ⏱️ Complexity Analysis
+
+Every solution should eventually include:
+
+### Time Complexity
+
+How the runtime grows with input size.
+
+### Space Complexity
+
+How much additional memory the algorithm uses.
+
+Common complexities to recognize:
+
+```text
+O(1)
+O(log n)
+O(n)
+O(n log n)
+O(n²)
+O(2ⁿ)
+O(n!)
+```
+
+Understanding complexity is essential for technical interviews.
+
+---
+
+# 🚀 Interview Preparation Strategy
+
+The roadmap progresses from fundamental data structures to advanced problem-solving patterns.
+
+### Foundation
+
+* Arrays
+* Strings
+* Searching
+* Sorting
 * Recursion
-* Backtracking
-* Stack-Based Problems
-* Heap / Priority Queue
-* Tree Traversal
-* DFS
-* BFS
+
+### Core Data Structures
+
+* Linked Lists
+* Stacks
+* Queues
+* Trees
+* Heaps
+
+### Advanced Problem Solving
+
+* Graphs
 * Dynamic Programming
-* Top-K Problems
-* Frequency Counting
-* Search Space Reduction
+* Greedy Algorithms
+* Bit Manipulation
+* Tries
+
+The ultimate goal is to develop the ability to:
+
+> **Understand the problem → Identify the pattern → Choose the data structure → Design the algorithm → Analyze complexity → Implement the solution**
 
 ---
 
-# 📂 What You'll Find in This Repository
+# ⚠️ Important Notes
 
-This repository contains implementations and practice problems organized around the concepts covered above.
-
-### Each topic may include:
-
-* 📖 Concept explanations
-* 💻 Python implementations
-* 🧩 Problem-solving examples
-* 📝 Practice questions
-* 🔍 Algorithm walkthroughs
-* ⏱️ Time complexity analysis
-* 💾 Space complexity analysis
-* 🎯 Common problem-solving patterns
-* 🧠 Optimization approaches
-* 🔄 Multiple approaches where applicable
+* Hard-level problems are not the initial priority.
+* Focus on **Easy → Medium** problems first.
+* Do not memorize solutions.
+* Re-solve problems that you struggled with.
+* Pay attention to patterns shared across different problems.
+* Complexity analysis should become part of every solution.
+* Graphs and Dynamic Programming require continued practice even after completing the roadmap.
 
 ---
 
-# 🎯 Learning Objectives
+# 🔗 Resources
 
-By working through this repository, you will learn how to:
+### 📚 Primary Concept Resource
 
-* Understand fundamental data structures
-* Analyze time and space complexity
-* Implement common algorithms in Python
-* Choose appropriate data structures for a problem
-* Identify common algorithmic patterns
-* Convert brute-force solutions into optimized solutions
-* Apply searching and sorting techniques
-* Solve recursion and backtracking problems
-* Approach dynamic programming problems systematically
-* Work with trees and graphs
-* Analyze algorithm efficiency
-* Write clean and efficient Python solutions
+**Striver's A2Z DSA Course — takeUforward**
+https://takeuforward.org/
 
----
+### 🎥 Big-O & Complexity
 
-# 🛠️ Language Used
+**Abdul Bari — Asymptotic Analysis**
 
-* **Python**
+### 💻 Practice
+
+**LeetCode** — Topic + Difficulty filtered practice
+
+### 📖 Reference
+
+**GeeksforGeeks** — Quick explanations and revision
 
 ---
 
-# 📌 Repository Focus
+# 🎓 Final Goal
 
-The primary focus of this repository is:
+By completing this roadmap, the objective is to build strong foundations in:
 
-**Concept → Implementation → Problem Solving → Optimization → Complexity Analysis**
+* Data Structures
+* Algorithms
+* Problem Solving
+* Complexity Analysis
+* Coding Patterns
+* Technical Interview Preparation
 
-The goal is to build strong algorithmic thinking through practical implementations and problem-solving rather than simply memorizing solutions.
+The focus is not simply on completing a checklist, but on becoming capable of **solving unfamiliar problems independently**.
+
+---
+
+## 👩‍💻 Author
+
+**Usha.S.Reddy**
+
+Building strong foundations in **DSA**.
