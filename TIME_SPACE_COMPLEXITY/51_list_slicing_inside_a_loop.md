@@ -17,7 +17,7 @@ for i in range(n):
 
 **Step 1: Understand list slicing**
 
-The expression `arr[:i]` creates a new list containing the first `i` elements
+The expression `arr[:i]` creates a new list containing the first `i` elements.
 
 For example:
 
