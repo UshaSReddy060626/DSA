@@ -25,7 +25,7 @@ Assume the array contains `n` elements and the window size is `k`.
 
 **Time Complexity: \(O(n)\)**
 
-## Detailed Explanation
+## Explanation
 
 ### Step 1: Calculate the first window
 

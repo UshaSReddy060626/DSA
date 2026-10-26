@@ -21,7 +21,7 @@ Assume `arr` contains `n` elements.
 
 **Overall Time Complexity: \(O(n)\) amortized**
 
-## Detailed Explanation
+## Explanation
 
 ### Step 1: Analyze the outer loop
 

@@ -23,7 +23,7 @@ Assume the input contains `n` elements and set operations take \(O(1)\) time on 
 - **Worst-case time:** \(O(n)\) average-case operation model
 - **Auxiliary space:** \(O(n)\)
 
-## Detailed Explanation
+## Explanation
 
 ### Step 1: Understand the set
 
