@@ -11,7 +11,7 @@ Determine the time and space complexity.
 - Point Update: \(O(\log n)\)
 - Space Complexity: \(O(n)\)
 
-### Explanation
+## Explanation
 
 Heavy-Light Decomposition is a technique that divides a tree into smaller chains to make path queries efficient.
 
